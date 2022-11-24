@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import 'reactflow/dist/style.css';
+
+/* This file iimport 'reactflow/dist/style.css';
+s for your main application CSS */
+div[data-phx-main=true] {
+    @apply h-full w-full
+}
